@@ -17,5 +17,5 @@ Secondly, there are three stages for the unit testing:
 
 Project been deployed on  `Heroku` via [Heroku](https://heroku.com/).
 
-A postman link of unit test  `Heroku` via [Heroku](https://www.postman.com/micserah-api/workspace/micserah/request/2757086-60fd4007-c26c-48ab-a2b1-4e84b2302bdf).   
+A postman link of unit test  `Postman` via [Postmna](https://www.postman.com/micserah-api/workspace/micserah/request/2757086-60fd4007-c26c-48ab-a2b1-4e84b2302bdf).   
 
