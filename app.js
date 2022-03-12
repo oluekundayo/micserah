@@ -68,4 +68,4 @@ app.use(function(req, res, next) {
 
 
 
-app.listen(0, () => console.log(''))
+app.listen(3000, () => console.log('Server live on http://localhost:3000'))
