@@ -13,8 +13,6 @@ CREATE TABLE IF NOT EXISTS user_tbl (
     password VARCHAR(225) NOT NULL,
     sex SET('male','female') DEFAULT '',
     phone_no VARCHAR(23) DEFAULT '',
-    date_registered TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    date_modified_last TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY (id),
     CONSTRAINT unique_user UNIQUE (email)
 );
