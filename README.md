@@ -9,11 +9,11 @@ To  execute the unit tests.
 Firstly, open on your web browser `Postman` via [Postman](https://web.postman.co/).
 
 Secondly, there are three stages for the unit testing:
--register
--login
--post a feed
--check all feed
--check your profile.
+- register
+- login
+- post a feed
+- check all feed
+- check your profile.
 
 Project been deployed on  `Heroku` via [Heroku](https://heroku.com/).
 
