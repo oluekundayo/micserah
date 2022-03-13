@@ -7,8 +7,7 @@ const passport = require('passport');
 const cookieParser = require('cookie-parser');
 const session = require("express-session");
 const Router = require('./routes')
-
-
+const port = process.env.PORT || 3000; // PORT must be in caps
 
 const app = express();
 
@@ -20,7 +19,7 @@ app.use(express.static(path.join(__dirname, 'upload')));
 app.use(cors({origin: '*'}));
 
 app.get('/', (req, res) => {
-    res.send('Hello API')
+    res.send('Hello API') 
 })
   
 Router(app);
@@ -68,4 +67,4 @@ app.use(function(req, res, next) {
 
 
 
-app.listen(3000, () => console.log('Server live on http://localhost:3000'))
+app.listen(port, () => console.log(`Server live on http://localhost:${port}`))
